@@ -1,0 +1,21 @@
+.card {
+  @apply px-10 flex-center-between w-full h-20 border-solid border-2 border-white;
+
+  &__label {
+    @apply font-bold text-3xl text-white;
+  }
+
+  &__icon {
+    max-width: 50%;
+
+    > img {
+      @apply invert;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__count {
+    @apply font-medium text-lg text-white;
+  }
+}

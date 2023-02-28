@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply pt-36 px-10 bg-slate-900;
+}
+
+.container {
+  max-width: 1460px;
+  width: 100%;
+  @apply m-auto;
+}
